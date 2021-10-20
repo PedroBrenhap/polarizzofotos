@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compre Conosco</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nave.css">
+    <link rel="stylesheet" href="compre conosco.css">
+    <style>
+    td input{
+        width: 50px;
+        height: 20px;
+        position: absolute;
+        margin-top: 160px;
+    }
+    td div{
+        font-family: 'LoraBold', Times, serif;
+        text-align: center;
+        position: absolute;
+        margin-top: 8px;
+        margin-left: 100px;
+        color: rgb(92, 75, 15);
+        text-shadow: 2px 2px 5px rgb(241, 211, 201);
+    }
+    .minimo{
+        font-family: 'LoraBold', Times, serif;
+        margin-top: 80px;
+        position: absolute;
+        color: rgb(236, 153, 143);
+        text-shadow: 2px 2px 5px rgb(241, 211, 201);
+    }
+    div p{
+        color: rgb(92, 75, 15);
+        text-shadow: 2px 2px 5px rgb(241, 211, 201);
+    }
+    #ifield{
+        position: absolute; 
+        margin-top: 365px; 
+        margin-left: 138px; 
+        box-shadow: 0px 0px 0px transparent; 
+        border: 2px solid rgb(131, 107, 23); 
+        background-color: rgba(241, 211, 201);
+        background-image: url();
+        border-radius: 10px;
+        font-family: 'LoraBold', Times, serif;
+        color: rgb(0, 0, 0);
+        width: 278px;
+        height: 15px;
+    }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <header style="width: 1349px;">
+        <img id="logo" src="imagens/Logo.jpeg" alt="" style="width: 110px; height: 80px; margin-left: 50px; margin-top: 5px;">
+    </header>
+    <nav style="width: 1349px;">
+        <a href="Index.html"><div class="nave" style="margin-left: 645px;"><p class="pgf" id="paginainicial">Página Inicial</p> </div></a>
+        <a href="Quem Somos.html"><div class="nave" style="margin-left: 800px;"><p class="pgf" id="quemsomos">Quem Somos</p> </div></a>
+        <a href="Fotos.html"><div class="nave"style="margin-left: 950px;" ><p class="pgf" id="fotos">Fotos</p></div></a>
+        <a href="Videos.html"><div class="nave"  style="margin-left: 1030px;" ><p class="pgf" id="videos">Videos</p></div></a>
+        <a href="Compre Conosco.html"><div class="nave"  style="margin-left: 1120px;" ><p class="pgf" id="compreconosco">Compre Conosco</p></div></a>
+    </nav>
+    <main style="height: 515px; width: 1349px;">
+        <table id="iTable" style="position: absolute; width: 850px; height: 450px; margin-top: 20px; margin-left: 60px; border-radius: 0px; box-shadow: 10px 10px 10px rgb(119, 99, 25);">
+            <tr style="margin-top: 80px; position: absolute;">
+              <td><img src="imagens/normal e square.jpeg" alt="" style="width: 200ox; height: 150px; margin-left: 20px;"><input type="number" name="" id="iCheck1" style="margin-left: -105px;" onclick="verificarQntFotos()"><div style="margin-left: 60px;">0,90 R$</div></td>
+              <td><img src="imagens/tirinha.jpeg" alt="" style="width: 200ox; height: 150px; margin-left: 80px;"><input type="number" name="" id="iCheck2" style="margin-left: -75px;" onclick="verificarQntFotos()"><div>2,00 R$</div></td>
+              <td><img src="imagens/panorama.jpeg" alt="" style="width: 200ox; height: 150px; margin-left: 80px;"><input type="number" name="" id="iCheck3" style="margin-left: -115px;" onclick="verificarQntFotos()"><div style="margin-left: 140px;">1,80 R$</div></td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="position: absolute; margin-top: 130px; margin-left: 20px; text-align: left;">
+                        <p>Legendas : + 0,30 R$ cada</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="position: absolute; margin-top: 130px; margin-left: 0px; text-align: left;">
+                        <p>Spotify QR Code : + 0,60 R$ cada</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="position: absolute; margin-top: 130px; margin-left: 15px; text-align: left;">
+                        <p>Borda Colorida : + 0,60 R$ cada</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+            <div id="if10" class="minimo" style="margin-left: 160px;">10 fotos</div>
+            <div class="minimo" style="margin-left: 435px;">2 tirinhas</div>
+            <div class="minimo" style="margin-left: 732px;">2 fotos</div>
+
+        <h1 id="iP1" style="position: absolute; font-family: 'LoraBold', Times, serif; margin-left: 315px; margin-top: 18px; color: rgb(240, 227, 185); text-shadow: 2px 2px 5px rgb(0, 0, 0);">Escolha as suas fotos</h1>
+        <h4 id="iP2" style="position: absolute; font-family: 'LoraBold', Times, serif; margin-left: 415px; margin-top: 55px; color: rgb(92, 75, 15); text-shadow: 2px 2px 5px rgb(241, 211, 201);">Pedido mínimo :</h4>
+        <h1 id="iP3" style="position: absolute; font-family: 'LoraBold', Times, serif; margin-left: 395px; margin-top: 328px; text-shadow: 2px 2px 5px rgb(241, 211, 201); color: rgb(236, 153, 143);">Adicionais</h1>
+        <br>
+        <form action="">
+                <p><label id="iCheckT" for="" style="margin-top: 130px; margin-left: 1022px; color: rgb(92, 75, 15);">Qnt. Fotos <input id="iCheckTotal" class="total" readonly type="text"></label></p>
+                <p><label id="iCheckV" for="" style="margin-top: 190px; margin-left: 1000px; color: rgb(92, 75, 15);">Valor a pagar <input id="iCheckValor"class="total" readonly type="text" size="10" ></label></p>
+                <p id="iErro" style="margin-top: 135px; position: absolute; margin-left: 1180px;"></p>
+                <p><div id="comprar" onclick="comprarFotos()" style="margin-top: 300px; margin-left: 1000px; width: 120px; text-align: center; line-height: 40px;">Comprar</div></p>
+                <p><div  id="cancelar" style="margin-top: 300px; margin-left: 1150px; width: 120px; text-align: center; line-height: 40px;" onclick="continuar()">Cancelar</div></p>
+        </form>
+        <div id="blur" style="width: 1349px; height: 751px; position: absolute; background-color: rgb(36, 0, 0); opacity: 0.9; z-index: 11; margin-top: -178px; margin-top: -952px;">
+            <div>
+                <h1 style="font-family: 'LoraBold', Times, serif; color: rgb(236, 153, 143); margin-left: 605px; text-shadow: 2px 2px 5px rgb(0, 0, 0);">Formulário</h1>
+            </div>
+        </div>
+
+        <section id="comprar-slide">
+                <fieldset style="width: 900px; height: 500px; position: absolute; margin-top: -100px; z-index: 20; margin-left: -200px;">
+                    <p><label for="iNome" style="margin-top: 5px; margin-left: 11px;">Nome Completo <input type="text" id="iNome" onblur="verificarNome('iNome')"></label></p>
+                    <p id="iNomeErro" style="background-color: transparent; margin-top: 40px; position: absolute; margin-left: 152px;"></p>
+                    <p><label for="iRG" style="margin-top: 65px; margin-left: 110px;">RG <input type="text" id="iRG" onblur="verificarRG('iRG')" placeholder="00.000.000-0" ></label></p>
+                    <p id="iRGErro" style="background-color: transparent; margin-top: 100px; position: absolute; margin-left: 152px;"></p>
+                    <p><label for="iCPF" style="margin-top: 125px; margin-left: 102px;">CPF <input type="text" id="iCPF" onblur="verificarCPF('iCPF')" placeholder="000.000.000-00" ></label></p>
+                    <p id="iCPFErro" style="background-color: transparent; margin-top: 160px; position: absolute; margin-left: 152px;"></p>
+                    <p><label for="iData" style="margin-top: 185px; margin-left: 34px;">Data de Nasc <input type="date" id="iData" onblur="verificarData('iData')"></label></p>
+                    <p id="iDataErro" style="background-color: transparent; margin-top: 220px; position: absolute; margin-left: 152px;"></p>
+                    <p><label for="iTelefone" style="margin-top: 245px; margin-left: 67px;">Telefone <input type="text" id="iTelefone" onblur="verificarTelefone('iTelefone')" placeholder="(00)00000-0000" ></label></p>
+                    <p id="iTelefoneErro" style="background-color: transparent; margin-top: 280px; position: absolute; margin-left: 152px;"></p>
+                    <p><label for="iEmail" style="margin-top: 305px; margin-left: 90px;">Email <input type="email" id="iEmail" onblur="verificarEmail('iEmail')"></label></p>
+                    <p id="iEmailErro" style="background-color: transparent; margin-top: 340px; position: absolute; margin-left: 152px;"></p>
+                    <p>
+                        <label for="" style="margin-top: 370px; margin-left: 97px;">Sexo</label>
+                            <fieldset id="ifield">
+                                <label for="iMasc" style="margin-left: 0px;">Masculino<input type="radio" id="iMasc" name="iSexo" style="width: 15px; height: 15px;"></label>
+                                <label for="iFem"  style="margin-left: 108px;">Feminino<input type="radio" id="iFem" name="iSexo" style="width: 15px; height: 15px;"></label>
+                                <label for="iOutro"  style="margin-left: 210px;">Outro<input type="radio" id="iOutro" name="iSexo" style="width: 15px; height: 15px;"></label>
+                            </fieldset>
+                    </p>
+                    <p id="iSexoErro" style="background-color: transparent; margin-top: 395px; position: absolute; margin-left: 152px;"></p>
+                    <p>
+                        <label for="iEstado" style="margin-top: 5px; margin-left: 482px;">Estado Civil 
+                            <select id="iEstado" onblur="verificarEstado('iEstado')">
+                                <option value=""></option>
+                                <option value="2">Solteiro</option>
+                                <option value="3">Casado</option>
+                                <option value="4">Separado</option>
+                                <option value="5">Divorciado</option>
+                                <option value="6">Viúvo</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p id="iEstadoErro" style="background-color: transparent; margin-top: 40px; position: absolute; margin-left: 592px;"></p>
+                    <p><label for="iCEP" style="margin-top: 65px; margin-left: 540px;">CEP <input type="text" id="iCEP" onblur="verificarCEP('iCEP')" placeholder="00000-000"></label></p>
+                    <p id="iCEPErro" style="background-color: transparent; margin-top: 100px; position: absolute; margin-left: 592px;"></p>
+                    <p>
+                        <label for="iUF" style="margin-top: 125px; margin-left: 550px;">UF 
+                            <select id="iUF" onblur="verificarUF('iUF')">
+                                <option value=""></option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p id="iUFErro" style="background-color: transparent; margin-top: 160px; position: absolute; margin-left: 592px;"></p>
+                    <p><label for="iBairro" style="margin-top: 185px; margin-left: 523px;">Bairro <input type="text" id="iBairro" onblur="verificarBairro('iBairro')"></label></p>
+                    <p id="iBairroErro" style="background-color: transparent; margin-top: 220px; position: absolute; margin-left: 592px;"></p>
+                    <p><label for="iEndereco" style="margin-top: 245px; margin-left: 500px;">Endereço <input type="text" id="iEndereco" onblur="verificarEndereco('iEndereco')"></label></p>
+                    <p id="iEnderecoErro" style="background-color: transparent; margin-top: 280px; position: absolute; margin-left: 592px;"></p>
+                    <p><label for="iNumero" style="margin-top: 305px; margin-left: 510px;">Número <input type="text" id="iNumero" onblur="verificarNumero('iNumero')" ></label></p>
+                    <p id="iNumeroErro" style="background-color: transparent; margin-top: 340px; position: absolute; margin-left: 592px;"></p>
+                    <p><label for="iComplemento" style="margin-top: 365px; margin-left: 466px;">Complemento <input type="text" id="iComplemento" onblur="verificarComplemento('iComplemento')" placeholder="Casa, apartamento, bloco.."></label></p>
+                    <p id="iComplementoErro" style="background-color: transparent; margin-top: 400px; position: absolute; margin-left: 592px;"></p>
+                    <p id="iConcluirErro" style="margin-top: 430px; margin-left: 350px; position: absolute;"></p>
+                    <div id="voltar" onclick="voltar()" style="margin-top: 460px; width: 90px;">Voltar</div>
+                    <p id="iF" style="margin-top: 462px; margin-left: 300px; position: absolute;">Fotos  <div class="final" id="iFF" style="margin-left: 360px; margin-top: 460px;"></div></p>
+                    <p id="iV" style="margin-top: 462px; margin-left: 600px; position: absolute;">Valor  <div class="final" id="iFV" style="margin-left: 660px; margin-top: 460px;"></div></p>
+                    <div id="concluir" onclick="concluir()" style="margin-top: 460px; margin-left: 810px; width: 90px;">Concluir</div>
+                </fieldset>
+        </section>
+        
+
+    
+    </main>
+    <footer style="width: 1349px;">
+        <a href="https://www.instagram.com/polarizzo/"><img id="insta" src="imagens/instagram-logo.png" alt="" class="redes" style="width: 40px; height: 40px; margin-top: 32px; margin-left: 615px;"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWdBngDGXfTGnlkmkhVFZFMtZHKFNDstMklRvKjJTNlcxhkMFWjsSgGRnfKrJkqrnjpg"><img id="email" src="imagens/gmail-logo.png" alt="" class="redes" style="position: absolute; width: 45px; height: 35px; margin-top: 35px; margin-left: 50px; z-index: 10;"></a>
+    </footer>
+    <script type="text/javascript">
+		
+	</script>
+    <script src="JavaScript/Compre Conosco.js"></script>
+</body>
+</html>

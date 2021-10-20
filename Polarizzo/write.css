@@ -1,0 +1,9 @@
+.texto{
+    position: absolute; 
+    margin-top: 140px; 
+    width: 700px; 
+    margin-left: 600px; 
+    font-family: 'LoraBold', Times, serif;
+    color: rgb(150, 123, 28); 
+    text-align: center;
+}

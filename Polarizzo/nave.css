@@ -1,0 +1,22 @@
+.nave{
+    position: absolute;
+    height: 28px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.pgf{
+    font-weight: bolder;
+    color: rgb(240, 227, 185);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-size: large;
+    margin-top: 2px;
+    font-family: 'LoraBold', Times, serif;
+}
+.pgf:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 700ms;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}

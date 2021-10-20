@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="nave.css">
+    <link rel="stylesheet" href="carrossel.css">
+    <style>
+        #iParagrafo1{
+            color: rgb(117, 97, 24);
+            text-shadow: 2px 2px 5px transparent;
+            font-family: 'LoraBold', Times, serif;
+        }
+        #iParagrafo2{
+            color: rgb(117, 97, 24);
+            text-shadow: 2px 2px 5px transparent;
+            font-family: 'LoraBold', Times, serif;
+        }
+        #iParagrafo3{
+            color: rgb(117, 97, 24);
+            text-shadow: 2px 2px 5px transparent;
+            font-family: 'LoraBold', Times, serif;
+        }
+        #iTela1{
+            cursor: pointer;
+        }
+        #iTela2:hover{
+            transform: scale(1.1);
+            transition-duration: 400ms;
+            cursor: cell;
+        }
+        #iTela3{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagens/Logo.jpeg" alt="" style="width: 110px; height: 80px; margin-left: 50px; margin-top: 5px;">
+    </header>
+    <nav >
+        <a href="Index.html"><div class="nave" style="margin-left: 645px;"><p class="pgf" id="paginainicial">Página Inicial</p> </div></a>
+        <a href="Quem Somos.html"><div class="nave" style="margin-left: 800px;"><p class="pgf" id="quemsomos">Quem Somos</p> </div></a>
+        <a href="Fotos.html"><div class="nave"style="margin-left: 950px;" ><p class="pgf" id="fotos">Fotos</p></div></a>
+        <a href="Videos.html"><div class="nave"  style="margin-left: 1030px;" ><p class="pgf" id="videos">Videos</p></div></a>
+        <a href="Compre Conosco.html"><div class="nave"  style="margin-left: 1120px;" ><p class="pgf" id="compreconosco">Compre Conosco</p></div></a>
+    </nav>
+    <main>
+        <div id="iContainer1" class="container"  style="width: 190px; height: 200px; background-color: white; border-radius: 0px; position: absolute; margin-left: 213px; margin-top: 65px; box-shadow: 10px 10px 10px rgb(119, 99, 25);">
+            <img id="iTela1" onclick="voltar('iTela1')" src="imagens/imagem10.jpeg" alt="" style="width: 170px; height: 150px; margin-left: 10px; margin-top: 10px; ">
+            <p id="iParagrafo1" style="margin-top: 10px; text-align: center;">10/10</p>
+        </div>
+        <div id="iContainer2" class="container"  style="width: 340px; height: 350px; background-color: rgb(255, 255, 255); border-radius: 0px; position: absolute; margin-left: 513px; margin-top: 25px; box-shadow: 10px 10px 10px rgb(119, 99, 25);">
+            <img id="iTela2" src="imagens/imagem1.JPG" alt="" style="width: 300px; height: 260px; margin-left: 20px; margin-top: 20px;">
+            <p id="iParagrafo2" style="margin-top: 15px; text-align: center; font-size: 28px; ">1/10</p>
+        </div>
+        <div id="iContainer3" class="container"  style="width: 190px; height: 200px; background-color: white; border-radius: 0px; position: absolute; margin-left: 967px; margin-top: 65px; box-shadow: 10px 10px 10px rgb(119, 99, 25);">
+            <img id="iTela3" onclick="avancar('iTela3')" src="imagens/imagem2.JPG" alt="" style="width: 170px; height: 150px; margin-left: 10px; margin-top: 10px; ">
+            <p id="iParagrafo3" style="margin-top: 10px; text-align: center;">2/10</p>
+        </div>
+        <button id="ibot1" class="bot" onclick="voltar('ibot1')"  onmouseout="mudarCorSair('ibot1')" onmouseover="mudarCorPassar('ibot1')" style="margin-left: 213px;"><img src="imagens/arrow.png" alt="" class="arrow" style="transform: rotate(180deg);"></button>
+        <button id="ibot2" class="bot" onclick="avancar('ibot2')" onmouseout="mudarCorSair('ibot2')" onmouseover="mudarCorPassar('ibot2')" style="margin-left: 967px; border-radius: 0px 10px 10px 0px;"><img src="imagens/arrow.png" alt="" class="arrow"></button>
+    </main>
+    <footer>
+        <a href="https://www.instagram.com/polarizzo/"><img src="imagens/instagram-logo.png" alt="" class="redes" style="width: 40px; height: 40px; margin-top: 32px; margin-left: 615px;"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlLWdBngDGXfTGnlkmkhVFZFMtZHKFNDstMklRvKjJTNlcxhkMFWjsSgGRnfKrJkqrnjpg"><img src="imagens/gmail-logo.png" alt="" class="redes" style="position: absolute; width: 45px; height: 35px; margin-top: 35px; margin-left: 50px;"></a>
+    </footer>
+
+    <script>
+
+    </script>
+    <script src="JavaScript/carrossel.js"></script>
+</body>
+</html>

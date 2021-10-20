@@ -1,0 +1,153 @@
+p{
+    font-family: 'LoraBold', Times, serif;
+}
+select{
+    width: 308px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    font-family: 'LoraBold', Times, serif;
+}
+select:hover{
+    background-color: rgb(231, 167, 145);
+    transition-duration: 300ms;
+}
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    font-family: 'LoraBold', Times, serif;
+}
+input:hover{
+    background-color: rgb(231, 167, 145);
+    transition-duration: 300ms;
+}
+input:focus{
+    background-color: rgb(228, 188, 45);
+    transition-duration: 300ms;
+}
+label{
+    position: absolute;
+}
+
+table{
+    background-image: url(imagens/Bem\ Vindo2.jpg);
+}
+fieldset{
+    box-shadow: 20px 20px 5px rgb(0, 0, 0);
+    background-image: url(imagens/fieldset.jpg);
+    border: 2px solid transparent;
+}
+label{
+    font-family: 'LoraBold', Times, serif;
+    color: rgb(92, 75, 15);
+}
+.check{
+    position: absolute;
+    margin-top: 50px;
+    width: 40px;
+}
+.check:hover{
+ background-color: transparent;
+}
+.total{
+    width: 60px;
+    height: 40px;
+    font-family: 'LoraBold', Times, serif;
+    font-size: 15px;
+    cursor: not-allowed;
+}
+.price{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -70px;
+    color: rgb(92, 75, 15);
+    font-family: 'LoraBold', Times, serif;
+}
+
+#comprar{
+    position: absolute;
+    height: 40px;
+    font-family: 'LoraBold', Times, serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    cursor: pointer;
+}
+#comprar:hover{
+ background-color: rgb(231, 167, 145);
+ transition-duration: 300ms;
+}
+#cancelar{
+    position: absolute;
+    height: 40px;
+    font-family: 'LoraBold', Times, serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    cursor: pointer;
+}
+#cancelar:hover{
+ background-color: rgb(231, 167, 145);
+ transition-duration: 300ms;
+}
+#voltar{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    font-family: 'LoraBold', Times, serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    cursor: pointer;
+    text-align: center;
+}
+#voltar:hover{
+    background-color: rgb(231, 167, 145);
+ transition-duration: 300ms;
+}
+#concluir{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    font-family: 'LoraBold', Times, serif;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(241, 211, 201);
+    border: 2px solid rgb(131, 107, 23);
+    cursor: pointer;
+    text-align: center;
+}
+#concluir:hover{
+    background-color: rgb(231, 167, 145);
+ transition-duration: 300ms;
+}
+#iV{
+    color: rgb(92, 75, 15);
+    font-family: 'LoraBold', Times, serif;
+}
+#iF{
+    color: rgb(92, 75, 15);
+    font-family: 'LoraBold', Times, serif;
+}
+#comprar-slide{
+    position: absolute;
+    margin-left: -1310px;
+}
+.final{
+    width: auto;
+    height: 25px;
+    background-color: rgb(241, 211, 201);
+    position: absolute;
+    text-align: center;
+    font-family: 'LoraBold', Times, serif;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
